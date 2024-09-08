@@ -39,7 +39,9 @@ const FullName = () => {
           required
         />{" "}
         <br />
-        <button type="submit">Submit</button>
+        <button type="submit" className="next">
+          Submit
+        </button>
         <p className="fullName">{fullName}</p>
       </form>
     </div>
