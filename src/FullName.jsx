@@ -40,8 +40,8 @@ const FullName = () => {
         />{" "}
         <br />
         <button type="submit">Submit</button>
-        <p className="next">{fullName}</p>
       </form>
+      <p className="next">{fullName}</p>
     </div>
   );
 };
