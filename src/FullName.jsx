@@ -41,7 +41,9 @@ const FullName = () => {
         <br />
         <button type="submit">Submit</button>
       </form>
-      <p className="next">{fullName}</p>
+      {firstName !== "" && lastName !== "" && (
+        <p className="next">{fullName}</p>
+      )}
     </div>
   );
 };
