@@ -6,7 +6,7 @@ const FullName = () => {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    setFullName(`${firstName} ${lastName}`);
+    setFullName(`Full Name: ${firstName} ${lastName}`);
   };
 
   const handleFirstName = (event) => {
@@ -40,7 +40,7 @@ const FullName = () => {
         />{" "}
         <br />
         <button type="submit">Submit</button>
-        <p className="fullName">Full Name: {fullName}</p>
+        <p className="fullName">{fullName}</p>
       </form>
     </div>
   );
